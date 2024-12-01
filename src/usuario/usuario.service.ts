@@ -9,7 +9,7 @@ export class UsuarioService {
     private usuarioRepository: Repository<Usuario>,
   ) {}
 
-  async findAll(): Promise<Usuario[]> {
+  async listar(): Promise<Usuario[]> {
     return this.usuarioRepository.find();
   }
 }
