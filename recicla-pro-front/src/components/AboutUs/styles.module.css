@@ -1,0 +1,22 @@
+.aboutUs{
+    padding-bottom: 20px;
+
+}
+
+.containerAboutUs{
+    background-color: white;
+    border-radius: 5px;
+    width: 800px;
+    margin: 0 auto;
+    color: black;
+}
+
+.containerAboutUs div{
+    padding: 20px;
+    font-size: 14px;
+}
+
+.containerAboutUs div p{
+    color: #4cbd49;
+    font-weight: 700;
+}

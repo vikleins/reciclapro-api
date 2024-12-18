@@ -1,0 +1,49 @@
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+.cards .structCard{
+    margin: 0px auto;
+    width: 700px;
+    background-color: white;
+    border-radius: 10px;
+    color: #000;
+    list-style: none;
+    padding: 20px;
+}
+
+.structCard_infos{
+    font-size: 14px;
+    color: #4cbd49;
+}
+
+.structCard_last_infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.structCard_last_infos p{
+    display: flex;
+    align-items: center;
+    gap: 5px ;
+}
+.email{
+    display: flex;
+        align-items: center;
+        gap: 5px;
+        justify-content: center;
+}
+
+.description_company{
+    padding: 10px;
+    border: 1px solid #4cbd49;
+    border-radius: 5px;
+}
+
+.structCard_ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

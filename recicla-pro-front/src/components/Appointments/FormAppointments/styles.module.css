@@ -1,0 +1,38 @@
+.formAppointmentsContent{
+    padding-bottom: 20px;
+
+}
+
+.formAppointments{
+    display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        margin: 0px auto;
+        gap: 10px;
+}
+
+.formAppointments input{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.formAppointments select{
+    background-color: white;
+        color: black;
+        padding: 5px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+}
+
+.formAppointments button {
+    background-color: #4cbd49;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 150px;
+    margin: 0 auto;
+}

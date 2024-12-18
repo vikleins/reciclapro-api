@@ -1,0 +1,82 @@
+header{
+    background-color: white;
+    border-bottom: 3px solid #B3E509;
+    border-bottom: 3px solid #B3E509;
+    
+    padding: 15px 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header > .logo{
+    color: #B3E509;
+    font-weight: 200;
+    border-right:3px solid #B3E509;
+    padding-right: 5px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    border-bottom: 3px solid #B3E509;
+    transition: 0.4s;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-left: 1px solid #B3E509;
+    border-top: 1px solid #B3E509;
+}
+header>.logo:hover{
+    border-right: 3px solid #4cbd49;
+        color: #4cbd49;
+        border-bottom: 3px solid #4cbd49;
+        border-left: 1px solid #4cbd49;
+            border-top: 1px solid #4cbd49;
+}
+header>.logo>span {
+    color: #B3E509;
+    font-weight: 600;
+}
+
+header > .items {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+header > .items > a{
+    color: #B3E509;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+header>.items>a:hover {
+    color: #4cbd49;
+}
+
+header>.items>#logout {
+    color: #4cbd49;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+header>.items>#logout:hover {
+    color: white;
+    
+}
+
+header>.items>#login {
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: 0.2s;
+    font-weight: 500;
+}
+header>.items>#login:hover {
+    color: #4cbd49;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
